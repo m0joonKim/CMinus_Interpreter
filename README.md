@@ -1,4 +1,5 @@
-# CMinus Interpreter [ CSE4050 Programming Language Prj2 ]
+# CMinus Interpreter 
+[ CSE4050 Programming Language Prj2 ]
 
 The purpose of this project is to develop a interpreter for C Minus, a simplified C.
 
