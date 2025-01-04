@@ -1,0 +1,25 @@
+a = 5;
+b = 3;
+p1 = &a;
+p2 = &b;
+pp1 = &p1;
+pp2 = &p2;
+y = **pp1;
+z = **pp2;
+kk = **pp1 + **pp2;
+ppp1 = &pp1;
+ppp2 = &pp2;
+kkk = ***ppp1 - ***ppp2;
+ok=0;
+if(***ppp1 < ***ppp2){
+    ***ppp1 = 100000;
+    ok=1;
+}else{
+    ***ppp2 = 100000;
+    ok=2;
+};
+while(***ppp1 < ***ppp2){
+    ***ppp1 = ***ppp1 + ***ppp1;
+}
+
+
